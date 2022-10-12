@@ -1,0 +1,42 @@
+@import url('http://fonts.cdnfonts.com/css/monument-extended');
+
+.container {
+    max-width: 600px;
+    margin: 200px auto;
+    width: 90%;
+    padding: 200px 0px;
+    position: relative;
+}
+
+.image-container {
+    padding-bottom: 100%;
+    background: black;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    background-image: url("https://i.pinimg.com/564x/b6/78/97/b67897771e1ecd67dff6fc060c421659.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.text {
+    color: white;
+    margin: 0;
+    font-size: 65px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: -30%;
+    z-index: 1;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.text.text-dark {
+    color: darkolivegreen;
+}
+.text span {
+    position: relative;
+    display: block;
+}
